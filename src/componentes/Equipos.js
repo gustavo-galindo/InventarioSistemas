@@ -378,6 +378,7 @@ export const Equipos =() => {
                                             </tr>                                            
                                         </tbody>
                                     </table>
+                                    
                                 </div>
                             </div>
                         </div>

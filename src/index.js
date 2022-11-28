@@ -8,6 +8,7 @@ import { Login } from './componentes/Login';
 import { Equipos} from './componentes/Equipos';
 import { Hoja} from './componentes/Hoja';
 import { Empleado } from './componentes/Empleado';
+import { AddEmpleado } from './componentes/AddEmpleado';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
         <Route path='/Equipos' element={<Equipos />}/>
         <Route path='/Hoja' element={<Hoja />}/>
         <Route path='/Empleado' element={<Empleado />}/>
+        <Route path='/AddEmpleado' element={<AddEmpleado />}/>
       </Routes>
     </Router>
    

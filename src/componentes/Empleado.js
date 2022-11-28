@@ -233,10 +233,7 @@ export const Empleado =() => {
                                         <th>Nombre</th>
                                         <th>email</th>
                                         <th>Cargo</th>  
-                                        <td> <a href="#" className="btn btn-primary btn-circle btn-sm"><i className="fa-solid fa-pen"></i>
-                                                            </a> /  <a href="#" className="btn btn-success btn-circle btn-sm">
-                                                            <i className="fas fa-save"></i></a>
-                                        </td>                                      
+                                                                       
                                     </tr>
                                 </thead>
                                 <tfoot>
@@ -245,10 +242,7 @@ export const Empleado =() => {
                                         <th>Nombre</th>
                                         <th>email</th>
                                         <th>Cargo</th>   
-                                        <td> <a href="#" className="btn btn-primary btn-circle btn-sm"><i className="fa-solid fa-pen"></i>
-                                                            </a> /  <a href="#" className="btn btn-success btn-circle btn-sm">
-                                                            <i className="fas fa-save"></i></a>
-                                        </td>                                               
+                                                                                  
                                     </tr>
                                 </tfoot>
                                 <tbody>
