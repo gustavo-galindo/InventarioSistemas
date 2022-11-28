@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const AddEmpleado =() => {
   return (
-    <div>      
-                
+    <div>                     
         <div className="container justify-content-center col-lg-6" >
             {/* Formulario Agregar Orden Inicio*/}
             <div className="card mb-3  ">
@@ -12,12 +11,13 @@ export const AddEmpleado =() => {
                 <div className="card-body ">
                 
                     <form id="addForm" action="#" method="" className="needs-validation" novalidate autocomplete="off">
-                        <div className="form-row">                   
-                            <div className="form-group col-lg-4">
-                                <label htmlFor="inputDate">Nombre</label>
-                                <input type="text" className="form-control" id="inputDate" name="date" placeholder='Nombre del Empleado' required />
-                                
-                            </div>                    
+                        <div className="form-row">             
+                            <div className="form-group col-lg-8">
+                                <label>Nombre Del Usuario</label>
+                                <div className="d-flex flex-row justify-content-between align-items-center">                      
+                                    <input type="text" className="form-control" id="nombre_usuario" name="nombre_usuario" required />
+                                </div>
+                            </div>
                         </div>
                         
                         <div className="form-row">
