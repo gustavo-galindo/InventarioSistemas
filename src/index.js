@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import { Login } from './componentes/Login';
 import { Equipos} from './componentes/Equipos';
-import { Hoja} from './componentes/Hoja';
+import { AddHojaVida} from './componentes/AddHojaVida';
 import { Empleado } from './componentes/Empleado';
 import { AddEmpleado } from './componentes/AddEmpleado';
 import { AddEquipo } from './componentes/AddEquipo';
@@ -20,7 +20,7 @@ root.render(
         <Route exact path='/' element={<App />}/>
         <Route path='/Login' element={<Login />}/>
         <Route path='/Equipos' element={<Equipos />}/>
-        <Route path='/Hoja' element={<Hoja />}/>
+        <Route path='/AddHojaVida' element={<AddHojaVida />}/>
         <Route path='/Empleado' element={<Empleado />}/>
         <Route path='/AddEmpleado' element={<AddEmpleado />}/>
         <Route path='/AddEquipo' element={<AddEquipo />}/>
